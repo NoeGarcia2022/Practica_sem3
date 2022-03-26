@@ -8,8 +8,22 @@ public class ConvertirTipoDato {
         System.out.println("Valor float a String: " + polimorfismo.convertirAString(10.12));
     }
 
-    private String convertirAString(int valorInt) {
+    public  String convertirAString(int valorInt) { //Convertir de int a String
+        String conversion = String.valueOf(valorInt);
+    return conversion;
     }
+    
+    public String convertirAString(double valorDouble){
+        String conversion = String.valueOf(valorDouble);
+    return conversion;
+    }
+    
+    public String convertirAString(float valorFloat){
+        String conversion = String.valueOf(valorFloat);
+    return conversion;
+    }
+    
+    
     
     
 }
