@@ -13,12 +13,12 @@ public class ConvertirTipoDato {
     return conversion;
     }
     
-    public String convertirAString(double valorDouble){
+    public String convertirAString(double valorDouble){ //Convertir de double a String
         String conversion = String.valueOf(valorDouble);
     return conversion;
     }
     
-    public String convertirAString(float valorFloat){
+    public String convertirAString(float valorFloat){ //Convertir de float a String
         String conversion = String.valueOf(valorFloat);
     return conversion;
     }
