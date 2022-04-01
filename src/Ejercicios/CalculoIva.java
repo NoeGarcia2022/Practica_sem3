@@ -16,7 +16,7 @@ public class CalculoIva {
     
     public static double articuloSinIVA( double precioArticulo_Iva){
         double precio;
-        precio = precioArticulo_Iva / 0.19;
+        precio = precioArticulo_Iva * 0.19;
     return precio;
     }
     public static void main(String[] args) {
